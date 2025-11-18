@@ -1,0 +1,26 @@
+{
+  "name": "motia-yt",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "motia install",
+    "dev": "motia dev",
+    "generate-types": "motia generate-types",
+    "build": "motia build",
+    "clean": "rm -rf dist node_modules python_modules .motia .mermaid"
+  },
+  "keywords": [
+    "motia"
+  ],
+  "dependencies": {
+    "motia": "^0.8.2-beta.139",
+    "openai": "^6.8.0",
+    "uuid": "^13.0.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
